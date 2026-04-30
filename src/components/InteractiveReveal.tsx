@@ -15,10 +15,6 @@ const COLS = 5;
 const BASE_W = 125;
 const BASE_H = 100;
 
-// Remove manual SCALE, let viewBox handle it
-const W = BASE_W;
-const H = BASE_H;
-
 // Compact offsets for the new viewBox (0 to 182, 0 to 130)
 // 182 / 130 = 1.4 (Matches aspect-[1.4/1])
 const OFFSET_X = 210; // Shifted right to accommodate expanded left area in viewBox (364 units wide)
