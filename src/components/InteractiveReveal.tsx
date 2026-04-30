@@ -1,4 +1,4 @@
-import { useState, useRef, useLayoutEffect, useCallback } from 'react';
+import { useState, useRef, useLayoutEffect } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import { Draggable } from 'gsap/Draggable';
@@ -18,8 +18,6 @@ const BASE_H = 100;
 // Remove manual SCALE, let viewBox handle it
 const W = BASE_W;
 const H = BASE_H;
-const PIECE_W = W / COLS;
-const PIECE_H = H / ROWS;
 
 // Compact offsets for the new viewBox (0 to 182, 0 to 130)
 // 182 / 130 = 1.4 (Matches aspect-[1.4/1])

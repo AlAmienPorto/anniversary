@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Camera, Heart, Sparkles } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const STRIPS = [
   {
